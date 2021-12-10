@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES="1" python EHTask.py --trainFlag 1 --epochs 30 --batchSize 512 --learningRate 1e-2 --gamma 0.7 --weightDecay 0 --checkpoint ../checkpoint/GW_Cross_User_5_Fold/Test_Fold_1/ --prdDir ../predictions/GW_Cross_User_5_Fold/Test_Fold_1/ --datasetDir ../../TaskDataset/GW_Cross_User_5_Fold/Test_Fold_1/
