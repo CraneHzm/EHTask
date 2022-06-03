@@ -23,11 +23,11 @@ As such, our work provides meaningful insights into human visual attention under
 
 
 ## Environments:
-Ubuntu: 18.04;
-python 3.6+;
-pytorch 1.1.0+;
-cudatoolkit 10.0;
-cudnn 7.6.5
+Ubuntu: 18.04  
+python 3.6+  
+pytorch 1.1.0+  
+cudatoolkit 10.0  
+cudnn 7.6.5  
 
 
 ## Usage:
