@@ -9,25 +9,24 @@ Note that we only utilize eye-in-head gaze data and head velocity data as input 
 
 "Unity_Client/Assets/Plugins/" contains the required netmq plugins.
 
-Unity Scripts:
-"CalculateHeadVelocity.cs": calculates the velocity of a head camera.
-"DataRecorder.cs": collects the eye and head data.
-"Client.cs": sends the collected data to a python server.
+Unity Scripts:  
+"CalculateHeadVelocity.cs": calculates the velocity of a head camera.  
+"DataRecorder.cs": collects the eye and head data.  
+"Client.cs": sends the collected data to a python server.  
 
 
 Using this example, you can do some interesting things:
-1. Collect gaze and head data from Unity and send them to a python server.
-2. Retrain our model and apply it to your Unity scene.
-3. Collect your own data to train your own model.
-
+1. Collect gaze and head data from Unity and send them to a python server.  
+2. Retrain our model and apply it to your Unity scene.  
+3. Collect your own data to train your own model.  
 
 
 ## Requirements:
-Unity 2019.4.13+
-python 3.6+;
-pytorch 1.1.0+;
-pyzmq
-netmq
+Unity 2019.4.13+  
+python 3.6+  
+pytorch 1.1.0+  
+pyzmq  
+netmq  
 
 
 ## Usage:
