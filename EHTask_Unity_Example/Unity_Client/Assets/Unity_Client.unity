@@ -275,7 +275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &963194226
 AudioListener:
   m_ObjectHideFlags: 0
@@ -398,7 +398,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0cc9f9440c13f43978ea74986d2595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headCamera: {fileID: 963194227}
+  headCamera: {fileID: 1825774690}
   dataNumber: 250
   recordingsString: 
   Running: 0
+--- !u!1001 &1825774683
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6582848670579397357, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_Name
+      value: First Person Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1388.7212
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 41.5566
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1585.2401
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.29899934
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9542534
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582848670579691213, guid: 88ea087d6d43ea940ab158efe5f82d30,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6582848671260272133, guid: 88ea087d6d43ea940ab158efe5f82d30, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 88ea087d6d43ea940ab158efe5f82d30, type: 3}
+--- !u!1 &1825774684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6582848670579397355, guid: 88ea087d6d43ea940ab158efe5f82d30,
+    type: 3}
+  m_PrefabInstance: {fileID: 1825774683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1825774685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825774684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c22aa0e243a944419960431075ff816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headVelX: 0
+  headVelY: 0
+--- !u!20 &1825774690 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 6582848670580248783, guid: 88ea087d6d43ea940ab158efe5f82d30,
+    type: 3}
+  m_PrefabInstance: {fileID: 1825774683}
+  m_PrefabAsset: {fileID: 0}
