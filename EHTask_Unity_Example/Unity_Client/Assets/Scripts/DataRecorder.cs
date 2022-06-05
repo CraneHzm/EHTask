@@ -54,42 +54,37 @@ public class DataRecorder : MonoBehaviour
         // (0, 0) at Bottom-left, (1, 1) at Top-right
         float gazeX = Random.value;
         float gazeY = Random.value;
-
+        string gazeInfo = gazeX.ToString("f2") + "," + gazeY.ToString("f2");
 
         // Head Rotation Velocity
         float headVelX = headCamera.GetComponent<CalculateHeadVelocity>().headVelX;
         float headVelY = headCamera.GetComponent<CalculateHeadVelocity>().headVelY;
-
-        // gazeX & gazeY are both saved in gazeData, thus the data size is doubled.
-        if (gazeData.Count < dataNumber * 2)
+        string headInfo = headVelX.ToString("f2") + "," + headVelY.ToString("f2");
+        
+        if (gazeData.Count < dataNumber)
         {
-            gazeData.Enqueue(gazeX.ToString("f2"));
-            gazeData.Enqueue(gazeY.ToString("f2"));
-            //gazeData.Enqueue(timeStamp);
-            headData.Enqueue(headVelX.ToString("f2"));
-            headData.Enqueue(headVelY.ToString("f2"));                       
-            //headData.Enqueue(timeStamp);
+            gazeData.Enqueue(gazeInfo);
+            headData.Enqueue(headInfo);
+            if (gazeData.Count == dataNumber)
+            {
+                recordingsString = timeStamp;
+                foreach (string data in gazeData)
+                    recordingsString = recordingsString + "," + data;
+                foreach (string data in headData)
+                    recordingsString = recordingsString + "," + data;
+            }
         }
-        else if (gazeData.Count == dataNumber * 2)
+        else if (gazeData.Count == dataNumber)
         {
+            gazeData.Dequeue();         
+            headData.Dequeue();
+            gazeData.Enqueue(gazeInfo);
+            headData.Enqueue(headInfo);
             recordingsString = timeStamp;
-            //Debug.Log(timeStamp);
             foreach (string data in gazeData)
                 recordingsString = recordingsString + "," + data;
             foreach (string data in headData)
                 recordingsString = recordingsString + "," + data;
-
-
-            gazeData.Dequeue();
-            gazeData.Dequeue();            
-            headData.Dequeue();
-            headData.Dequeue();
-            gazeData.Enqueue(gazeX.ToString("f2"));
-            gazeData.Enqueue(gazeY.ToString("f2"));            
-            //gazeData.Enqueue(timeStamp);
-            headData.Enqueue(headVelX.ToString("f2"));
-            headData.Enqueue(headVelY.ToString("f2"));            
-            //headData.Enqueue(timeStamp);
         }
     }
 
