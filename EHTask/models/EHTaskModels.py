@@ -457,14 +457,12 @@ class EHTask_GW(nn.Module):
 
 # EHTask model using eye-in-head features and head features.
 class EHTask_EyeHead(nn.Module):
-    def __init__(self, eyeFeatureSize, headFeatureSize, gwFeatureSize, numClasses):
+    def __init__(self, eyeFeatureSize, headFeatureSize, numClasses):
         super().__init__()
         # eye-in-head features
         self.eyeFeatureSize = eyeFeatureSize
         # head features
         self.headFeatureSize = headFeatureSize
-        # gaze-in-world features
-        self.gwFeatureSize = gwFeatureSize
         print('Eye-in-head feature size: {}'.format(self.eyeFeatureSize))
         print('Head feature size: {}'.format(self.headFeatureSize))
         
