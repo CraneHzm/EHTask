@@ -3,7 +3,6 @@ Project homepage: https://cranehzm.github.io/EHTask.
 
 
 'EHTask' contains the source code of our model and some pre-trained models.
-The pre-trained models are saved in "EHTask/checkpoint" directory.
 
 
 'EHTask_Unity_Example' contains an example of running EHTask model with Unity.
