@@ -5,7 +5,7 @@ Project homepage: https://cranehzm.github.io/EHTask.
 'EHTask' contains the source code of our model and some pre-trained models.
 
 
-'EHTask_Unity_Example' contains an example of running EHTask model with Unity.
+'EHTask_Unity_Example' contains an example of running EHTask model in Unity.
 
 
 ## Abstract
