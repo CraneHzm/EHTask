@@ -1,6 +1,6 @@
 ## Solution Explanation
 
-'EHTask_Unity_Example' contains an example of running EHTask model with Unity.  
+'EHTask_Unity_Example' contains an example of running EHTask model in Unity.  
 
 "EHTask_Server.py" loads a pre-trained EHTask model and then waits for input data from Unity client to run the EHTask model. Note that we only utilize eye-in-head gaze data and head velocity data as input features because gaze-in-world gaze data is only meaningful for 360-degree videos. The experimental results in our paper validate that using eye-in-head gaze data and head velocity data can achieve good results.  
 
