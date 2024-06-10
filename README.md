@@ -35,3 +35,17 @@ Step 1: Download the dataset from our project homepage: https://cranehzm.github.
 Step 2: Run the script "run_EHTask.sh" in "EHTask/scripts" directory to retrain or test our model on our dataset.
 		Run the script "run_EHTask_GWDataset.sh" in "EHTask/scripts" directory to retrain or test our model on GW dataset.
 
+## Citation
+```bibtex
+@ARTICLE{hu22_ehtask,
+            author={Hu, Zhiming and Bulling, Andreas and Li, Sheng and Wang, Guoping},
+            journal={IEEE Transactions on Visualization and Computer Graphics}, 
+            title={EHTask: Recognizing User Tasks From Eye and Head Movements in Immersive Virtual Reality}, 
+            year={2023},
+            volume={29},
+            number={4},
+            pages={1992-2004},
+            doi={10.1109/TVCG.2021.3138902}}
+```
+  
+
