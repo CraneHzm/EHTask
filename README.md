@@ -10,14 +10,7 @@ Project homepage: https://cranehzm.github.io/EHTask.
 
 ## Abstract
 ```
-Understanding human visual attention in immersive virtual reality (VR) is crucial for many important applications, including gaze prediction, gaze guidance, and gaze-contingent rendering. 
-However, previous works on visual attention analysis typically only explored one specific VR task and paid less attention to the differences between different tasks. 
-Moreover, existing task recognition methods typically focused on 2D viewing conditions and only explored the effectiveness of human eye movements. 
-We first collect eye and head movements of 30 participants performing four tasks, i.e. Free viewing, Visual search, Saliency, and Track, in 15 360-degree VR videos. 
-Using this dataset, we analyze the patterns of human eye and head movements and reveal significant differences across different tasks in terms of fixation duration, saccade amplitude, head rotation velocity, and eye-head coordination. 
-We then propose EHTask -- a novel learning-based method that employs eye and head movements to recognize user tasks in VR. 
-We show that our method significantly outperforms the state-of-the-art methods derived from 2D viewing conditions both on our dataset (accuracy of 84.4% vs. 62.8%) and on a real-world dataset (61.9% vs. 44.1%). 
-As such, our work provides meaningful insights into human visual attention under different VR tasks and guides future work on recognizing user tasks in VR.
+Understanding human visual attention in immersive virtual reality (VR) is crucial for many important applications, including gaze prediction, gaze guidance, and gaze-contingent rendering. However, previous works on visual attention analysis typically only explored one specific VR task and paid less attention to the differences between different tasks. Moreover, existing task recognition methods typically focused on 2D viewing conditions and only explored the effectiveness of human eye movements. We first collect eye and head movements of 30 participants performing four tasks, i.e. Free viewing, Visual search, Saliency, and Track, in 15 360-degree VR videos. Using this dataset, we analyze the patterns of human eye and head movements and reveal significant differences across different tasks in terms of fixation duration, saccade amplitude, head rotation velocity, and eye-head coordination. We then propose EHTask -- a novel learning-based method that employs eye and head movements to recognize user tasks in VR. We show that our method significantly outperforms the state-of-the-art methods derived from 2D viewing conditions both on our dataset (accuracy of 84.4% vs. 62.8%) and on a real-world dataset (61.9% vs. 44.1%). As such, our work provides meaningful insights into human visual attention under different VR tasks and guides future work on recognizing user tasks in VR.
 ```	
 
 
