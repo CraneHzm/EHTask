@@ -37,15 +37,15 @@ Step 2: Run the script "run_EHTask.sh" in "EHTask/scripts" directory to retrain 
 
 ## Citation
 ```bibtex
-@ARTICLE{hu22ehtask,
-            author={Hu, Zhiming and Bulling, Andreas and Li, Sheng and Wang, Guoping},
-            journal={IEEE Transactions on Visualization and Computer Graphics}, 
-            title={EHTask: Recognizing User Tasks From Eye and Head Movements in Immersive Virtual Reality}, 
-            year={2023},
-            volume={29},
-            number={4},
-            pages={1992-2004},
-            doi={10.1109/TVCG.2021.3138902}}
+@article{hu22ehtask,
+	author={Hu, Zhiming and Bulling, Andreas and Li, Sheng and Wang, Guoping},
+	journal={IEEE Transactions on Visualization and Computer Graphics}, 
+	title={EHTask: Recognizing User Tasks From Eye and Head Movements in Immersive Virtual Reality}, 
+	year={2023},
+	volume={29},
+	number={4},
+	pages={1992--2004},
+	doi={10.1109/TVCG.2021.3138902}}  
 ```
   
 
